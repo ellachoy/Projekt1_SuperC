@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Raleway:wght@300&family=Roboto&display=swap');
+h3:hover{
+    color:red;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* font: "open sans" anstatt "Tahoma" sollte Tahoma sein! */
+ul li:first-child{
+    color:#4E342E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+li:nth-of-type(2){
+    color:#689f38;
+    font-family: 'Montserrat', sans-serif;
+}
+li:nth-of-type(3){
+    color:#ef5350;
+    font-family: 'Raleway', sans-serif;
+}
+section p:first-child{
+    color:#999;
+}
+p:not(:last-child){
+    font-size:26px;
+}
+section p:nth-child(2n){
+    color:#0277bd;
+}
+button:hover{
+    background: linear-gradient(70deg, blue, pink);
+    font-size: 30px;
+}
